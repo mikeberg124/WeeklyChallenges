@@ -6,6 +6,7 @@ namespace ChallengesWithTestsMark8
     {
         public bool AreTwoNumbersTheSame(int num1, int num2)
         {
+         //Done
             if(num1 == num2)
             {
                 return true;
@@ -15,35 +16,46 @@ namespace ChallengesWithTestsMark8
                 return false;
             }
         }
-
+        //Done
         public double Subtract(double minuend, double subtrahend)
         {
-            throw new NotImplementedException();
+            double answer = minuend - subtrahend;
+            return answer;
         }
 
         public int Add(int number1, int number2)
         {
-            throw new NotImplementedException();
+         //Done
+            int answer = number1 + number2;
+            return answer;
+
         }
 
         public int GetSmallestNumber(int number1, int number2)
         {
-            throw new NotImplementedException();
+            return Math.Min(number1, number2);
         }
 
         public long Multiply(long factor1, long factor2)
         {
-            throw new NotImplementedException();
+            long answer = factor1 * factor2;
+            return answer;
         }
 
         public string GetGreeting(string nameOfPerson)
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Hello");
+            string name = Console.ReadLine();
+            return ($"Hello, {nameOfPerson}!");
+
+
         }
 
         public string GetHey()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("hello");
+            string greeting = Console.ReadLine();
+            return ($"HEY!");
         }
     }
 }
