@@ -25,6 +25,9 @@ namespace ChallengesWithTestsMark8
             return sum;
         }
 
+
+        //test note
+
         public int GetLengthOfShortestString(string str1, string str2, string str3, string str4)
         {
             var strings = new string[] { str1, str2, str3, str4 };
