@@ -62,7 +62,7 @@ namespace ChallengesWithTestsMark8.Tests
             ChallengesSet06 challenger = new ChallengesSet06();
 
             // Act
-            bool actual = challenger.IsPrimeNumber(number);
+            bool actual = ChallengesSet06.IsPrimeNumber(number);
 
             // Assert
             Assert.Equal(expected, actual);
